@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="" />
+    <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-02-12" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-02-12" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XcAtff9biIXnt09P8KHXq8iNyM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -42,6 +52,7 @@
       <workItem from="1581415418852" duration="307000" />
       <workItem from="1581415738520" duration="13999000" />
       <workItem from="1581499226757" duration="1329000" />
+      <workItem from="1581505706533" duration="4344000" />
     </task>
     <servers />
   </component>

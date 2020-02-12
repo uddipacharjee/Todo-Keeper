@@ -20,7 +20,10 @@ public class TodoController {
         String user= (String) model.get("name");
         System.out.println(user);
         model.addAttribute("todos",service.retrieveTodos(user));
-
+        if(user==null) {
+            model.put("errorMessage","You have to first Login");
+            return "login";
+        }
         return "list-todos";
     }
 }
