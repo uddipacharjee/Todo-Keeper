@@ -1,0 +1,6 @@
+127.0.0.1 - - [12/Feb/2020:17:10:09 +0600] "GET /login HTTP/1.1" 200 333 http-bio-8080-exec-1 484
+127.0.0.1 - - [12/Feb/2020:17:10:09 +0600] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-2 2
+127.0.0.1 - - [12/Feb/2020:17:10:14 +0600] "POST /login HTTP/1.1" 200 230 http-bio-8080-exec-3 99
+127.0.0.1 - - [12/Feb/2020:17:10:14 +0600] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-4 1
+127.0.0.1 - - [12/Feb/2020:17:10:18 +0600] "GET /list-todos HTTP/1.1" 200 418 http-bio-8080-exec-6 57
+127.0.0.1 - - [12/Feb/2020:17:10:18 +0600] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-7 1
