@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="" />
+    <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-todos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signup.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/list_002dtodos_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/list_002dtodos_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +59,9 @@
       <workItem from="1581415418852" duration="307000" />
       <workItem from="1581415738520" duration="13999000" />
       <workItem from="1581499226757" duration="1329000" />
-      <workItem from="1581505706533" duration="4348000" />
+      <workItem from="1581505706533" duration="4928000" />
+      <workItem from="1581571939961" duration="5175000" />
+      <workItem from="1581585293029" duration="11273000" />
     </task>
     <servers />
   </component>
@@ -67,10 +81,10 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1193" y="18" key="SettingsEditor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581415405327" />
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581499231494">
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581585367030">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581499231494" />
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581585367030" />
     <state x="1024" y="81" width="1350" height="603" key="new project wizard" timestamp="1581415545001">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>

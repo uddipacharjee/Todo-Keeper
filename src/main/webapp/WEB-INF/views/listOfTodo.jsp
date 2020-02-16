@@ -5,6 +5,7 @@
 </head>
 <body>
 <H1>Your Todos</H1>
-${todos}
+${todos}<br>
+<a class="button" href="/add-todo">Add</a>
 </body>
 </html>

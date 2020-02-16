@@ -34,8 +34,7 @@ public class LoginController {
 		//model.addAttribute("password",password);
 
 		model.put("name",name);
-		model.put("password",password);
-		System.out.println(name+"  "+password);
+
 		return "welcome";
 	}
 

@@ -9,7 +9,7 @@
 <body>
 	 <form action="action_page.php" style="border:1px solid #ccc">
   <div class="container">
-    <h1>Sign Up</h1>
+    <%--@declare id="email"--%><%--@declare id="psw"--%><%--@declare id="psw-repeat"--%><h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 
