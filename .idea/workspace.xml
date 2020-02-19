@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Todo_Keeper_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Todo_Keeper_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/uddip.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo-Keeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-Keeper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/service/TodoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/service/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/todo/service/TodoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" afterDir="false" />
     </list>
@@ -37,6 +19,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Todo-Keeper" />
@@ -64,10 +60,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringTutorial" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ClassMaker [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.ClassMaker [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="showFilesets" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +120,10 @@
       <workItem from="1581585293029" duration="15967000" />
       <workItem from="1581839362016" duration="7786000" />
       <workItem from="1581913782109" duration="3370000" />
-      <workItem from="1581930979047" duration="11384000" />
+      <workItem from="1581930979047" duration="13929000" />
+      <workItem from="1582087621751" duration="10213000" />
+      <workItem from="1582102747782" duration="1632000" />
+      <workItem from="1582105913091" duration="7652000" />
     </task>
     <servers />
   </component>
@@ -101,26 +135,70 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1299" y="44" width="800" height="677" key="#Inspections/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581414607984" />
-    <state x="1299" y="44" width="848" height="677" key="#Project_Structure" timestamp="1581839708062">
+    <state x="1299" y="44" width="848" height="677" key="#Project_Structure" timestamp="1582096094893">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1299" y="44" width="848" height="677" key="#Project_Structure/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581839708062" />
+    <state x="1299" y="44" width="848" height="677" key="#Project_Structure/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582096094893" />
+    <state x="1299" y="44" width="800" height="677" key="#Tomcat_Server" timestamp="1582106434823">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1299" y="44" width="800" height="677" key="#Tomcat_Server/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582106434823" />
+    <state x="1162" y="41" width="1077" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582108596736">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1162" y="41" width="1077" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108596736" />
     <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582005195951">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582005195951" />
-    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582016996314">
+    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582105836796">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582016996314" />
-    <state x="1193" y="18" key="SettingsEditor" timestamp="1581415405327">
+    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582105836796" />
+    <state width="1314" height="230" key="GridCell.Tab.0.bottom" timestamp="1582108175285">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1193" y="18" key="SettingsEditor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581415405327" />
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1581913846794">
+    <state width="1314" height="230" key="GridCell.Tab.0.bottom/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.0.center" timestamp="1582108175285">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581913846794" />
+    <state width="1314" height="230" key="GridCell.Tab.0.center/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.0.left" timestamp="1582108175285">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.0.left/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.0.right" timestamp="1582108175285">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.0.right/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.1.bottom" timestamp="1582108175286">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.1.bottom/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175286" />
+    <state width="1314" height="230" key="GridCell.Tab.1.center" timestamp="1582108175285">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.1.center/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.1.left" timestamp="1582108175285">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.1.left/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state width="1314" height="230" key="GridCell.Tab.1.right" timestamp="1582108175285">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="1314" height="230" key="GridCell.Tab.1.right/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108175285" />
+    <state x="1193" y="18" key="SettingsEditor" timestamp="1582109259755">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1193" y="18" key="SettingsEditor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582109259755" />
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582102749912">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582102749912" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582108872788">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108872788" />
     <state x="1024" y="81" width="1350" height="603" key="new project wizard" timestamp="1581415545001">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>

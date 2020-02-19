@@ -6,10 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.Date;
@@ -23,6 +20,8 @@ public class TodoController {
     @RequestMapping(value="/list-todos", method= {RequestMethod.GET})
     public String showTodoList(ModelMap model){
         String user= (String) model.get("name");
+        System.out.println(user);
+        System.out.println(service.retrieveTodos(user));
         model.addAttribute("todos",service.retrieveTodos(user));
         if(user==null) {
             model.put("errorMessage","You have to first Login");
@@ -56,4 +55,23 @@ public class TodoController {
         model.clear();
         return "redirect:/list-todos";
     }
+    @RequestMapping(value="/update-todo",method=RequestMethod.GET)
+    public String showUpdateTodoPage(ModelMap model,@RequestParam int id){
+        Todo todo=service.retrieveTodo(id);
+        System.out.println("show todo page"+todo);
+        model.addAttribute("todo",todo);
+        System.out.println("update : "+model.get("name"));
+        return "todo";
+    }
+    @RequestMapping(value="/update-todo",method = RequestMethod.POST)
+    public String updateTodo(@Valid @ModelAttribute("todo") Todo todo,BindingResult result,ModelMap model){
+        if(result.hasErrors()){
+            return "todo";
+        }
+        todo.setTargetDate(new Date());
+        service.updateTodo(todo);
+
+        return "redirect:/list-todos";
+    }
+
 }
