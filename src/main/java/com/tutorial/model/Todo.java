@@ -1,5 +1,6 @@
 package com.tutorial.model;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
 import java.util.Objects;
@@ -7,7 +8,7 @@ import java.util.Objects;
 public class Todo {
     private int id;
     private String user;
-
+    @NotNull
     @Size(min=10,message = "Enter at least 10 characters.")
     private String desc;
 
@@ -99,8 +100,8 @@ public class Todo {
         return Objects.hash(id, user, desc, targetDate, isDone);
     }
 */
-    @Override
-    public String toString() {
+   // @Override
+   /* public String toString() {
         return "Todo{" +
                 "id=" + id +
                 ", user='" + user + '\'' +
@@ -108,5 +109,17 @@ public class Todo {
                 ", targetDate=" + targetDate +
                 ", isDone=" + isDone +
                 '}';
+    }*/
+
+    @Override
+    public String toString() {
+        final StringBuffer sb = new StringBuffer("Todo{");
+        sb.append("id=").append(id);
+        sb.append(", user='").append(user).append('\'');
+        sb.append(", desc='").append(desc).append('\'');
+        sb.append(", targetDate=").append(targetDate);
+        sb.append(", isDone=").append(isDone);
+        sb.append('}');
+        return sb.toString();
     }
 }
