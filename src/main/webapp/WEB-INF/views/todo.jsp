@@ -1,12 +1,5 @@
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<html>
-<head>
-    <title>Login Page</title>
-    <%@ page isELIgnored="false" %>
-    <link href="webjars/bootstrap/4.3.1/css/bootstrap.min.css"
-          rel="stylesheet">
-</head>
-<body>
+<%@ include file="common/header.jspf"%>
+<%@ include file="common/navigation.jspf"%>
 <div class="container">
     <form:form method="post" modelAttribute="todo">
         <form:hidden path="id"/>
@@ -25,13 +18,9 @@
         <button type="submit" class="btn btn-success">Submit</button>
     </form:form>
 </div>
-<script src="webjars/jquery/3.4.1/jquery.min.js"></script>
-<script src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="webjars/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+<%@ include file="common/footer.jspf"%>
 <script>
     $('#targetDate').datepicker({
         format:'dd/mm/yyyy'
     });
 </script>
-</body>
-</html>

@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf641bb-da35-4f44-b176-0cc1c173f5ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_ui_1_9_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Todo_Keeper_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Todo_Keeper_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-Keeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-Keeper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/welcome/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/login/service/LoginService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/login/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/login/service/LoginService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jspx File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +61,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XcAtff9biIXnt09P8KHXq8iNyM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -125,7 +140,12 @@
       <workItem from="1582102747782" duration="1632000" />
       <workItem from="1582105913091" duration="9108000" />
       <workItem from="1582173173849" duration="11372000" />
-      <workItem from="1582190413916" duration="997000" />
+      <workItem from="1582190413916" duration="4480000" />
+      <workItem from="1582196389483" duration="1332000" />
+      <workItem from="1582211216936" duration="5982000" />
+      <workItem from="1582431933875" duration="10248000" />
+      <workItem from="1582449341818" duration="4792000" />
+      <workItem from="1582454841624" duration="5423000" />
     </task>
     <servers />
   </component>
@@ -149,10 +169,14 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1162" y="41" width="1077" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108596736" />
-    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582187622648">
+    <state x="1404" y="188" width="590" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582441830615">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582187622648" />
+    <state x="1404" y="188" width="590" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582441830615" />
+    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582432390326">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582432390326" />
     <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582105836796">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
@@ -193,10 +217,10 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1193" y="18" key="SettingsEditor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582109259755" />
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582173172764">
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582454841777">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582173172764" />
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582454841777" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1582108872788">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
@@ -209,5 +233,9 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1367" y="89" width="672" height="678" key="search.everywhere.popup/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581846652460" />
+    <state x="1255" y="17" width="888" height="732" key="spring file set editor" timestamp="1582455109267">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1255" y="17" width="888" height="732" key="spring file set editor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582455109267" />
   </component>
 </project>

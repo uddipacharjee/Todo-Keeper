@@ -5,6 +5,8 @@ import com.tutorial.todo.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -16,7 +18,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Controller
-@SessionAttributes("name")
+//@SessionAttributes("name")
 public class TodoController {
     @Autowired
     private TodoService service;
@@ -31,17 +33,26 @@ public class TodoController {
         System.out.println("strintrimmer");
     }
 
+    private String getLoggedInUserName(){
+        Object principal = SecurityContextHolder.getContext()
+                .getAuthentication().getPrincipal();
+
+        if (principal instanceof UserDetails)
+            return ((UserDetails) principal).getUsername();
+
+        return principal.toString();
+    }
 
     @RequestMapping(value="/list-todos", method= {RequestMethod.GET})
     public String showTodoList(ModelMap model){
-        String user= (String) model.get("name");
+        String user= getLoggedInUserName();
         System.out.println(user);
-        System.out.println(service.retrieveTodos(user));
+        //System.out.println(service.retrieveTodos(user));
         model.addAttribute("todos",service.retrieveTodos(user));
-        if(user==null) {
-            model.put("errorMessage","You have to first Login");
-            return "login";
-        }
+//        if(user==null) {
+//            model.put("errorMessage","You have to first Login");
+//            return "login";
+//        }
         return "listOfTodo";
     }
 
@@ -57,7 +68,7 @@ public class TodoController {
         if(result.hasErrors())
             return "todo";
 
-        service.addTodo((String)model.get("name"),todo.getDesc(),todo.getTargetDate(),false);
+        service.addTodo(getLoggedInUserName(),todo.getDesc(),todo.getTargetDate(),false);
         //model.addAttribute("todos",service.retrieveTodos((String)model.get("name")));
         model.clear();
 
