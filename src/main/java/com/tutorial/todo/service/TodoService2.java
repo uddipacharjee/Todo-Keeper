@@ -3,14 +3,11 @@ package com.tutorial.todo.service;
 import com.tutorial.model.Todo;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.logging.Logger;
 
 @Service
-public class TodoService {
+public class TodoService2 {
 
     private final static Logger LOGGER =
             Logger.getLogger("TodoService");
@@ -46,19 +43,50 @@ public class TodoService {
     }
     public void addTodo(String name,String desc,Date targetDate,boolean isDone){
         todos.add(new Todo(++todoCount,name,desc,targetDate,isDone));
+        System.out.println("add\n"+todos);
     }
 
     public void updateTodo(Todo todo){
         todos.remove(todo);
         todos.add(todo);
+        sort();
+        System.out.println("update\n"+todos);
     }
     public void deleteTodo(int id){
+        System.out.println("delete");
         Iterator<Todo> iterator=todos.iterator();
         while(iterator.hasNext()){
             Todo todo=iterator.next();
             if(todo.getId()==id){
                 iterator.remove();
+
             }
         }
+        sort();
+        System.out.println("delete\n"+todos);
+    }
+    public void changeTodoStatus(int id){
+        Iterator<Todo> iterator=todos.iterator();
+        Todo expectedTodo=null;
+        while(iterator.hasNext()){
+            Todo todo=iterator.next();
+            if(todo.getId()==id){
+                expectedTodo=todo;
+                break;
+            }
+        }
+        if(expectedTodo.isDone())expectedTodo.setDone(false);
+        else expectedTodo.setDone(true);
+        updateTodo(expectedTodo);
+        sort();
+        System.out.println("change\n"+todos);
+    }
+    private void sort(){
+        Collections.sort(todos, new Comparator<Todo>() {
+            @Override
+            public int compare(Todo t1, Todo t2) {
+                return t1.getId()-t2.getId();
+            }
+        });
     }
 }

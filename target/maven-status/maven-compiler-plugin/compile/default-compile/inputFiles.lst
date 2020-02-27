@@ -1,9 +1,13 @@
-/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/todo/service/TodoService.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/todo/rest/TodoRestController.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/dao/TodoDao.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/security/SecurityConfiguration.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/model/Todo.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/todo/service/TodoService2.java
 /home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/common/ExceptionController.java
 /home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/login/LogoutController.java
-/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/todo/rest/TodoRestController.java
 /home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/login/SignUpController.java
 /home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/welcome/WelcomeController.java
 /home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/todo/TodoController.java
-/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/security/SecurityConfiguration.java
-/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/model/Todo.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/dao/TodoDaoImpl.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/services/TodoServiceImpl.java
+/home/uddip/eclipse-workspace/Todo-Keeper/src/main/java/com/tutorial/services/TodoService.java

@@ -16,9 +16,9 @@
         <tbody>
             <c:forEach items="${todos}" var="todo">
                 <tr>
-                    <td>${todo.desc}</td>
+                    <td>${todo.description}</td>
                     <td><fmt:formatDate pattern="dd/MM/yyyy" value="${todo.targetDate}"/></td>
-                    <td>${todo.done}</td>
+                    <td><a type="button" class="btn btn-primary" href="/check-todo?id=${todo.id}">${todo.done}</a></td>
                     <td>
                         <a type="button" class="btn btn-primary" href="/update-todo?id=${todo.id}">Edit</a>
                         <a type="button" class="btn btn-warning" href="/delete-todo?id=${todo.id}">Delete</a>

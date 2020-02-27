@@ -5,10 +5,10 @@
         <form:hidden path="id"/>
         <form:hidden path="user"/>
         <fieldset class="form-group">
-            <form:label path="desc">Description</form:label>
-            <form:input path="desc" type="text" class="form-control"
+            <form:label path="description">Description</form:label>
+            <form:input path="description" type="text" class="form-control"
                         required="required"/>
-            <form:errors path="desc" cssClass="text-warning" />
+            <form:errors path="description" cssClass="text-warning" />
         </fieldset>
         <fieldset class="form-group">
             <form:label path="targetDate">Target Date</form:label>

@@ -6,24 +6,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-Keeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-Keeper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/welcome/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/login/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/security/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/rest/TodoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/rest/TodoRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tutorial/todo/service/TodoService2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/todo-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listOfTodo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/login/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/login/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/model/Todo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tutorial/todo/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/todo/service/TodoService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/welcome_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +48,7 @@
       <list>
         <option value="Jspx File" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringTutorial" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/employeeTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -145,7 +141,11 @@
       <workItem from="1582211216936" duration="5982000" />
       <workItem from="1582431933875" duration="10248000" />
       <workItem from="1582449341818" duration="4792000" />
-      <workItem from="1582454841624" duration="5423000" />
+      <workItem from="1582454841624" duration="14825000" />
+      <workItem from="1582535692693" duration="3992000" />
+      <workItem from="1582542876005" duration="7235000" />
+      <workItem from="1582622579674" duration="8871000" />
+      <workItem from="1582697401610" duration="24266000" />
     </task>
     <servers />
   </component>
@@ -165,6 +165,10 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1299" y="44" width="800" height="677" key="#Tomcat_Server/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582106434823" />
+    <state x="1437" y="141" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582632129293">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1437" y="141" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582632129293" />
     <state x="1162" y="41" width="1077" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582108596736">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
@@ -173,14 +177,18 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1404" y="188" width="590" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582441830615" />
-    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582432390326">
+    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1582777601841">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582432390326" />
-    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582105836796">
+    <state x="1512" y="102" width="558" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582777601841" />
+    <state x="1365" y="0" width="657" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582789192382">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582105836796" />
+    <state x="1365" y="0" width="657" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582789192382" />
+    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582712236464">
+      <screen x="1024" y="0" width="1360" height="768" />
+    </state>
+    <state x="1487" y="141" width="424" height="484" key="FileChooserDialogImpl/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582712236464" />
     <state width="1314" height="352" key="GridCell.Tab.0.bottom" timestamp="1582187455408">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
@@ -217,22 +225,22 @@
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state x="1193" y="18" key="SettingsEditor/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582109259755" />
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582454841777">
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582697409980">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582454841777" />
+    <state x="1419" y="164" key="com.intellij.ide.util.TipDialog/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582697409980" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1582108872788">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
     <state width="600" height="424" key="javadoc.popup/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582108872788" />
-    <state x="1024" y="81" width="1350" height="603" key="new project wizard" timestamp="1581415545001">
+    <state x="1024" y="81" width="1350" height="603" key="new project wizard" timestamp="1582547860873">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1024" y="81" width="1350" height="603" key="new project wizard/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581415545001" />
-    <state x="1367" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581846652460">
+    <state x="1024" y="81" width="1350" height="603" key="new project wizard/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582547860873" />
+    <state x="1367" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582784023549">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>
-    <state x="1367" y="89" width="672" height="678" key="search.everywhere.popup/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1581846652460" />
+    <state x="1367" y="89" width="672" height="678" key="search.everywhere.popup/67.27.957.741/1024.0.1360.768@1024.0.1360.768" timestamp="1582784023549" />
     <state x="1255" y="17" width="888" height="732" key="spring file set editor" timestamp="1582455109267">
       <screen x="1024" y="0" width="1360" height="768" />
     </state>

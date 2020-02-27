@@ -3,14 +3,13 @@ package com.tutorial.model;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
-import java.util.Objects;
 
 public class Todo {
     private int id;
     private String user;
     @NotNull
     @Size(min=10,message = "Enter at least 10 characters.")
-    private String desc;
+    private String description;
 
     private Date targetDate;
     private boolean isDone;
@@ -18,10 +17,10 @@ public class Todo {
     public Todo() {
     }
 
-    public Todo(int id, String user, String desc, Date targetDate, boolean isDone) {
+    public Todo(int id, String user, String description, Date targetDate, boolean isDone) {
         this.id = id;
         this.user = user;
-        this.desc = desc;
+        this.description = description;
         this.targetDate = targetDate;
         this.isDone = isDone;
     }
@@ -42,12 +41,12 @@ public class Todo {
         this.user = user;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Date getTargetDate() {
@@ -91,13 +90,13 @@ public class Todo {
         return id == todo.id &&
                 isDone == todo.isDone &&
                 Objects.equals(user, todo.user) &&
-                Objects.equals(desc, todo.desc) &&
+                Objects.equals(description, todo.description) &&
                 Objects.equals(targetDate, todo.targetDate);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, user, desc, targetDate, isDone);
+        return Objects.hash(id, user, description, targetDate, isDone);
     }
 */
    // @Override
@@ -105,7 +104,7 @@ public class Todo {
         return "Todo{" +
                 "id=" + id +
                 ", user='" + user + '\'' +
-                ", desc='" + desc + '\'' +
+                ", description='" + description + '\'' +
                 ", targetDate=" + targetDate +
                 ", isDone=" + isDone +
                 '}';
@@ -116,7 +115,7 @@ public class Todo {
         final StringBuffer sb = new StringBuffer("Todo{");
         sb.append("id=").append(id);
         sb.append(", user='").append(user).append('\'');
-        sb.append(", desc='").append(desc).append('\'');
+        sb.append(", description='").append(description).append('\'');
         sb.append(", targetDate=").append(targetDate);
         sb.append(", isDone=").append(isDone);
         sb.append('}');
